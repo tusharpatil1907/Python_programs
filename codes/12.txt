@@ -1,0 +1,17 @@
+
+fname=input("enter file name")
+with open(fname,'r')as f:
+    print("After capaitalizing first letter of ",fname,"=\n")
+    for line in f:
+        l=line.title()
+        print(l)
+f.close()
+
+"""
+enter file name open.txt
+After capaitalizing first letter of  open.txt =
+
+Hello Guys How Are You All
+
+Hope You All Are Fine
+"""

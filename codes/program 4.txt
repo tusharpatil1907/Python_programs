@@ -1,0 +1,34 @@
+a=[]
+n=int(input("Enter the number of elements in list: "))
+for x in range(0,n):
+    element=input("Enter element" + str(x+1) + ".")
+    a.append(element)
+print(a)
+c=[]
+count=0
+b=input("Enter word to remove: ")
+n=int(input("Enter the occurence to remove: "))
+for i in a:
+    if(i==b):
+        count=count+1
+        if(count!=n):
+            c.append(i)
+    else:
+        c.append(i)
+if(count==0):
+    print("Item not found")
+else:
+    print("The number of repititions is: ", count)
+    print("Upadated list is: ",c)
+    
+ Output:   
+Enter the number of elements in list: 3
+Enter element1.apple
+Enter element2.apple
+Enter element3.orange
+['apple', 'apple', 'orange']
+Enter word to remove: apple
+Enter the occurence to remove: 1
+The number of repititions is:  2
+Upadated list is:  ['apple', 'orange']
+> 

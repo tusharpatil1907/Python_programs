@@ -1,0 +1,27 @@
+#Program to map two lists into dictionary.
+keys=[]
+val=[]
+n=int(input("Enter number of elements of dictionary: "))
+print("for keys")
+for x in range(0,n):
+ 
+    keys.append(int(input("Enter keys: ")))
+print("For values")
+for x in range(0,n):
+
+    val.append(int(input("Enter element: ")))
+d=dict(zip(keys,val))
+print("The dictionary is: ", d)
+
+Output:
+
+Enter number of elements of dictionary: 3
+for keys
+Enter keys: 1
+Enter keys: 2
+Enter keys: 3
+For values
+Enter element: 4
+Enter element: 5
+Enter element: 6
+The dictionary is:  {1: 4, 2: 5, 3: 6}

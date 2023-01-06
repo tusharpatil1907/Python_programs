@@ -1,0 +1,14 @@
+#program to count frequency of words appearing in a string using dictionary.
+
+str1=input("Enter string: ")
+list1=[]
+list1=str1.split()
+freq=[list1.count(p) for p in list1]
+print("The frequency of word is: ")
+print(dict(zip(list1,freq)))
+
+Output:
+
+Enter string: Hi tushar how are you tushar      
+The frequency of word is: 
+{'Hi': 1, 'tushar': 2, 'how': 1, 'are': 1, 'you': 1}
