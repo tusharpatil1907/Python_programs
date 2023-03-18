@@ -42,14 +42,10 @@ print("After updation\n",student3)
 
 #here we going to delete item from above dictionary.
 print("Before deletion\n",student3)
-
-#below line will delete item from dictionary.
 del student3["Roll no"]
-
 print("After deletion\n",student3)
-    #the roll no value will be deleted from dictionary.
+ #the roll no value will be deleted from dictionary.
 
-#to clear the whole dictionary.
 
 #To clear whole dictionary we have to use clear() function.
 

@@ -42,7 +42,7 @@ print("before removing",set0)
 set0.discard("shahada")
 print("after discarding",set0)
 
-#join 2 sets.
+#join 2 sets use umions.
 
 set1={"apple","oriange","mango"}
 set2={"cherry","grapes","melon"}

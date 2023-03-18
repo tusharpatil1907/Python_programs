@@ -10,7 +10,7 @@ map={
 print(map)
 
 #To create dictionary using key name.
-print("acessing esch by key name ")
+print("acessing each by key name ")
 print("name od student:",map["name"])
 
 #To acess dictionary using get() function.

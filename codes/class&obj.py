@@ -6,7 +6,7 @@ class item:
     qty=0;
     amount=0;   
     def getdata(self):
-        self.icode=int(input("enter code if item: "))
+        self.icode=int(input("enter code of item: "))
         self.iname=input("enter name of product: ")
         self.prize=int(input("enter prize: "))
         self.qty=int(input("enter qty: "))

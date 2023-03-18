@@ -7,4 +7,4 @@ student={
     'branch':'computer'
 }
 
-print("length of dictionary")
+print("length of dictionary",len(student))

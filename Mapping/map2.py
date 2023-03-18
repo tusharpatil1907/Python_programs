@@ -13,4 +13,4 @@ for key in student:
 
 for key in student:
     print(key ,"=",student[key])
-
+# key is used to get the value in dictionary
